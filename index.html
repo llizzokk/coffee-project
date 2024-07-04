@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bean Scene</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Montserrat&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
@@ -61,138 +64,155 @@
                     </p>
                     <button type="button" class=" about-container-content-btn">Learn More</button>
                 </div>
-                <img src="./images/Mask group (10).png" alt="coffee beans cup" class="about-container-img">
+                <img src="./images/Mask group (10).png" alt="coffee beans cup" width="500" class="about-container-img">
             </div>
         </section>
-        <section class="section">
-            <div class="container">
-                <h2>Enjoy a new blend of coffee style</h2>
-                <p>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
-                <ul>
-                    <li>
-                        <img src="./images/Rectangle 7.jpg" alt="Cappuccino">
-                        <div>
-                            <h3>Cappuccino</h3>
-                            <p>$8.50</p>
+        <section class="section flavours-section">
+            <div class="container flavours-container">
+                <h2 class="flavours-container-title">Enjoy a new blend of coffee style</h2>
+                <p class="flavours-container-text">Explore all flavours of coffee with us. There is always a new cup
+                    worth experiencing</p>
+                <ul class="flavours-container-list">
+                    <li class="flavours-container-list-item">
+                        <img src="./images/Rectangle 7.jpg" alt="Cappuccino" width="280"
+                            class="flavours-container-list-item-img">
+                        <div class="flavours-container-list-item-content">
+                            <h3 class="flavours-container-list-item-content-title">Cappuccino</h3>
+                            <p class="flavours-container-list-item-content-text">$8.50</p>
                         </div>
-                        <button type="button">Order Now</button>
+                        <button type="button" class="flavours-container-list-item-btn">Order Now</button>
                     </li>
-                    <li>
-                        <img src="./images/Rectangle 9.jpg" alt="Chai Latte">
-                        <div>
-                            <h3>Chai Latte</h3>
-                            <p>$8.50</p>
+                    <li class="flavours-container-list-item">
+                        <img src="./images/Rectangle 9.jpg" alt="Chai Latte" width="280"
+                            class="flavours-container-list-item-img">
+                        <div class="flavours-container-list-item-content">
+                            <h3 class="flavours-container-list-item-content-title">Chai Latte</h3>
+                            <p class="flavours-container-list-item-content-text">$8.50</p>
                         </div>
-                        <button type="button">Order Now</button>
+                        <button type="button" class="flavours-container-list-item-btn">Order Now</button>
                     </li>
-                    <li>
-                        <img src="./images/Rectangle 11.jpg" alt="Macchiato">
-                        <div>
-                            <h3>Macchiato</h3>
-                            <p>$8.50</p>
+                    <li class="flavours-container-list-item">
+                        <img src="./images/Rectangle 11.jpg" alt="Macchiato" width="280"
+                            class="flavours-container-list-item-img">
+                        <div class="flavours-container-list-item-content">
+                            <h3 class="flavours-container-list-item-content-title">Macchiato</h3>
+                            <p class="flavours-container-list-item-content-text">$8.50</p>
                         </div>
-                        <button type="button">Order Now</button>
+                        <button type="button" class="flavours-container-list-item-btn">Order Now</button>
                     </li>
-                    <li>
-                        <img src="./images/Rectangle 13.jpg" alt="Expresso">
-                        <div>
-                            <h3>Expresso</h3>
-                            <p>$8.50</p>
+                    <li class="flavours-container-list-item">
+                        <img src="./images/Rectangle 13.jpg" alt="Expresso" width="280"
+                            class="flavours-container-list-item-img">
+                        <div class="flavours-container-list-item-content">
+                            <h3 class="flavours-container-list-item-content-title">Expresso</h3>
+                            <p class="flavours-container-list-item-content-text">$8.50</p>
                         </div>
-                        <button type="button">Order Now</button>
+                        <button type="button" class="flavours-container-list-item-btn">Order Now</button>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="section">
-            <div class="container">
-                <div>
-                    <h2>Get a chance to have an
+        <section class="section section-order">
+            <div class="container order-container">
+                <div class="order-container-content">
+                    <h2 class="order-container-content-title">Get a chance to have an
                         Amazing morning</h2>
-                    <p>We are giving you are one time opportunity to
+                    <p class="order-container-text">We are giving you are one time opportunity to
                         experience a better life with coffee.</p>
-                    <button type="button">Order Now</button>
+                    <button type="button" class="order-container-content-btn">Order Now</button>
                 </div>
-                <img src="./images/cup.png" alt="cup of coffee">
+                <img src="./images/cup.png" alt="cup of coffee" width="300" class="order-container-img">
             </div>
         </section>
-        <section class="section">
-            <div class="container">
-                <h2></h2>
-                <p></p>
-                <ul>
-                    <li>
-                        <img src="./images/coffee-beans 1.svg" alt="Supreme Beans">
-                        <div>
-                            <h3>Supreme Beans</h3>
-                            <p>Beans that provides
+        <section class="section benefits-section">
+            <div class="container benefits-container">
+                <h2 class="benefits-container-title">Why are we different?</h2>
+                <p class=" benefits-container-text">We don&apos;t just make your coffee, we make your day!</p>
+                <ul class="benefits-container-list">
+                    <li class="benefits-container-list-item">
+                        <img src="./images/coffee-beans 1.svg" alt="Supreme Beans" width="88"
+                            class="benefits-container-list-item-img">
+                        <div class="benefits-container-list-item-content">
+                            <h3 class="benefits-container-list-item-content-title">Supreme Beans</h3>
+                            <p class="benefits-container-list-item-content-text">Beans that provides
                                 great taste</p>
                         </div>
                     </li>
-                    <li>
-                        <img src="./images/badge 1.svg" alt="High Quality">
-                        <div>
-                            <h3>High Quality</h3>
-                            <p>We provide the
+                    <li class="benefits-container-list-item">
+                        <img src="./images/badge 1.svg" alt="High Quality" width="88"
+                            class="benefits-container-list-item-img">
+                        <div class="benefits-container-list-item-content">
+                            <h3 class="benefits-container-list-item-content-title">High Quality</h3>
+                            <p class="benefits-container-list-item-content-text">We provide the
                                 highest quality</p>
                         </div>
                     </li>
-                    <li>
-                        <img src="./images/coffee-cup 1.svg" alt="Extraordinary">
-                        <div>
-                            <h3>Extraordinary</h3>
-                            <p>Coffee like you have
+                    <li class="benefits-container-list-item">
+                        <img src="./images/coffee-cup 1.svg" alt="Extraordinary" width="88"
+                            class="benefits-container-list-item-img">
+                        <div class="benefits-container-list-item-content">
+                            <h3 class="benefits-container-list-item-content-title">Extraordinary</h3>
+                            <p class=" benefits-container-list-item-content-text">Coffee like you have
                                 never tasted</p>
                         </div>
                     </li>
-                    <li>
-                        <img src="./images/best-price 1.svg" alt="Affordable Price">
-                        <div>
-                            <h3>Affordable Price</h3>
-                            <p>Our Coffee prices are
+                    <li class="benefits-container-list-item">
+                        <img src="./images/best-price 1.svg" alt="Affordable Price" width="88"
+                            class="benefits-container-list-item-img">
+                        <div class="benefits-container-list-item-content">
+                            <h3 class="benefits-container-list-item-content-title">Affordable Price</h3>
+                            <p class="benefits-container-list-item-content-text">Our Coffee prices are
                                 easy to afford</p>
                         </div>
                     </li>
                 </ul>
-                <p>Great ideas start with great coffee, Lets help you achieve that</p>
-                <h3>Get started today.</h3>
+                <p class=" benefits-container-info">Great ideas start with great coffee, Lets help you achieve
+                    that</p>
+                <h3 class="benefits-container-head">Get started today.</h3>
             </div>
         </section>
     </main>
     <footer>
-        <div class="container">
-            <a href="./index.html">Bean Scene</a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.</p>
-            <ul>
-                <li>
-                    <a href="https://uk-ua.facebook.com/" target="_blank"><img src="./images/Group 50.svg"
-                            alt="facebook"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank"><img src="./images/Group 51.svg"
-                            alt="instagram"></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank"><img src="./images/Group 52.svg"
-                            alt="youtube"></a>
-                </li>
-                <li>
-                    <a href="https://x.com/?lang=ru" target="_blank"><img src="./images/Group 53.svg" alt="x"></a>
-                </li>
-            </ul>
-            <address>
-                <h3>Contact Us</h3>
-                <ul>
-                    <li>
-                        <p>Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016</p>
+        <div class="container footer-container">
+            <div class="footer-container-content">
+                <a href="./index.html" class="footer-container-logo">Bean Scene</a>
+                <p class="footer-container-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                    Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book.</p>
+                <ul class="footer-container-list">
+                    <li class="footer-container-list-item">
+                        <a href="https://uk-ua.facebook.com/" target="_blank"><img src="./images/Group 50.svg"
+                                alt="facebook"></a>
                     </li>
-                    <li>
-                        <a href="tel:+12029182132">+1 202-918-2132</a>
+                    <li class="footer-container-list-item">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="./images/Group 51.svg"
+                                alt="instagram"></a>
                     </li>
-                    <li>
-                        <a href="mailto:beanscene@mail.com">beanscene@mail.com</a>
+                    <li class="footer-container-list-item">
+                        <a href="https://www.youtube.com/" target="_blank"><img src="./images/Group 52.svg"
+                                alt="youtube"></a>
+                    </li>
+                    <li class="footer-container-list-item">
+                        <a href="https://x.com/?lang=ru" target="_blank"><img src="./images/Group 53.svg" alt="x"></a>
+                    </li>
+                </ul>
+            </div>
+            <address class="footer-container-add">
+                <h3 class="footer-container-add-title">Contact Us</h3>
+                <ul class="footer-container-add-list">
+                    <li class="footer-container-add-list-item">
+                        <p class="footer-container-add-list-item-text">Akshya Nagar 1st Block 1st Cross, Rammurthy
+                            nagar, Bangalore-560016</p>
+                    </li>
+                    <li class="footer-container-add-list-item">
+                        <a href="tel:+12029182132" class="footer-container-add-list-item-number">+1 202-918-2132</a>
+                    </li>
+                    <li class="footer-container-add-list-item">
+                        <a href="mailto:beanscene@mail.com"
+                            class="footer-container-add-list-item-contact">beanscene@mail.com</a>
                     </li>
                 </ul>
             </address>
